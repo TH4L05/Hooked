@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B3ED021-2E7F-4040-80D2-40F37AC0DBD4}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{2B3ED021-2E7F-4040-80D2-40F37AC0DBD4}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MasterVolumeFader" ID="{A0345173-EC8C-4031-99F0-94C7C23B1191}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicVolumeFader" ID="{6572A53A-F9A4-498F-B530-1C48962A1BC2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SfxVolumeFader" ID="{4F7BB1B0-28D0-4FB6-9A9A-C8743DE26491}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

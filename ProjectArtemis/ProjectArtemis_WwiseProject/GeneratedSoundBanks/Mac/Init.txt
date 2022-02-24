@@ -1,0 +1,14 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2447364016	MusicVolumeFader			\Default Work Unit\MusicVolumeFader	
+	3810272963	MasterVolumeFader			\Default Work Unit\MasterVolumeFader	
+	4176977912	SfxVolumeFader			\Default Work Unit\SfxVolumeFader	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

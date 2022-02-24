@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3063528515">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2447364016" Name="MusicVolumeFader" ObjectPath="\Game Parameters\Default Work Unit\MusicVolumeFader"/>
+				<GameParameter Id="3810272963" Name="MasterVolumeFader" ObjectPath="\Game Parameters\Default Work Unit\MasterVolumeFader"/>
+				<GameParameter Id="4176977912" Name="SfxVolumeFader" ObjectPath="\Game Parameters\Default Work Unit\SfxVolumeFader"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1976424533">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2344072136" Name="DampMusicStart" ObjectPath="\Events\Default Work Unit\DampMusicStart" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3766997524" Name="DampMusicStop" ObjectPath="\Events\Default Work Unit\DampMusicStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1446717659" Name="Play_Active_Connection" ObjectPath="\Events\Default Work Unit\Play_Active_Connection" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="738567855" Language="SFX">
+							<ShortName>Active_Connection.wav</ShortName>
+							<Path>SFX\Active_Connection_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1104007447" Name="Play_Arrow_gets_destroyed" ObjectPath="\Events\Default Work Unit\Play_Arrow_gets_destroyed" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.984898" DurationMax="0.984898">
+					<IncludedMemoryFiles>
+						<File Id="567938802" Language="SFX">
+							<ShortName>Arrow_gets_destroyed.wav</ShortName>
+							<Path>SFX\Arrow_gets_destroyed_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1072073938" Name="Play_Arrow_hits_hookable_object" ObjectPath="\Events\Default Work Unit\Play_Arrow_hits_hookable_object" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.283039" DurationMax="0.283039">
+					<IncludedMemoryFiles>
+						<File Id="198538129" Language="SFX">
+							<ShortName>Arrow_hits_hookable_object.wav</ShortName>
+							<Path>SFX\Arrow_hits_hookable_object_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3538789407" Name="Play_Bow_grab" ObjectPath="\Events\Default Work Unit\Play_Bow_grab" DurationType="OneShot" DurationMin="0.230912" DurationMax="0.237678">
+					<IncludedMemoryFiles>
+						<File Id="35257640" Language="SFX">
+							<ShortName>Bow_grab.wav</ShortName>
+							<Path>SFX\Bow_grab_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3298598723" Name="Play_Connection_established_Arrow" ObjectPath="\Events\Default Work Unit\Play_Connection_established_Arrow" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.879819" DurationMax="0.879819">
+					<IncludedMemoryFiles>
+						<File Id="35617206" Language="SFX">
+							<ShortName>Connection_established_Arrow.wav</ShortName>
+							<Path>SFX\Connection_established_Arrow_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="444121689" Name="Play_Connection_gets_disabled" ObjectPath="\Events\Default Work Unit\Play_Connection_gets_disabled" DurationType="OneShot" DurationMin="0.674250" DurationMax="0.674250">
+					<IncludedMemoryFiles>
+						<File Id="481612852" Language="SFX">
+							<ShortName>Connection_gets_disabled.wav</ShortName>
+							<Path>SFX\Connection_gets_disabled_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="97863885" Name="Play_Connection_gets_interrupted" ObjectPath="\Events\Default Work Unit\Play_Connection_gets_interrupted" DurationType="OneShot" DurationMin="0.674250" DurationMax="0.674250">
+					<IncludedMemoryFiles>
+						<File Id="262789259" Language="SFX">
+							<ShortName>Connection_gets_interrupted.wav</ShortName>
+							<Path>SFX\Connection_gets_interrupted_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2588048338" Name="Play_Cube_Impact" ObjectPath="\Events\Default Work Unit\Play_Cube_Impact" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.393228" DurationMax="0.416610">
+					<IncludedMemoryFiles>
+						<File Id="58102564" Language="SFX">
+							<ShortName>Cube_Impact5.wav</ShortName>
+							<Path>SFX\Cube_Impact5_10C4C929.wem</Path>
+						</File>
+						<File Id="312752676" Language="SFX">
+							<ShortName>Cube_Impact2.wav</ShortName>
+							<Path>SFX\Cube_Impact2_10C4C929.wem</Path>
+						</File>
+						<File Id="402088223" Language="SFX">
+							<ShortName>Cube_Impact1.wav</ShortName>
+							<Path>SFX\Cube_Impact1_10C4C929.wem</Path>
+						</File>
+						<File Id="823119677" Language="SFX">
+							<ShortName>Cube_Impact4.wav</ShortName>
+							<Path>SFX\Cube_Impact4_10C4C929.wem</Path>
+						</File>
+						<File Id="911927517" Language="SFX">
+							<ShortName>Cube_Impact6.wav</ShortName>
+							<Path>SFX\Cube_Impact6_10C4C929.wem</Path>
+						</File>
+						<File Id="1012353899" Language="SFX">
+							<ShortName>Cube_Impact3.wav</ShortName>
+							<Path>SFX\Cube_Impact3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1958298137" Name="Play_Cube_Spawn" ObjectPath="\Events\Default Work Unit\Play_Cube_Spawn" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.310454" DurationMax="1.310454">
+					<IncludedMemoryFiles>
+						<File Id="289315573" Language="SFX">
+							<ShortName>Cube_Spawn.wav</ShortName>
+							<Path>SFX\Cube_Spawn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1986507045" Name="Play_Cube_Teleport" ObjectPath="\Events\Default Work Unit\Play_Cube_Teleport" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="4.085413" DurationMax="4.328345">
+					<IncludedMemoryFiles>
+						<File Id="10995867" Language="SFX">
+							<ShortName>Teleport.wav</ShortName>
+							<Path>SFX\Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1646319626" Name="Play_Dissolve_Wall_Activated" ObjectPath="\Events\Default Work Unit\Play_Dissolve_Wall_Activated" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.394603" DurationMax="1.394603">
+					<IncludedMemoryFiles>
+						<File Id="236561246" Language="SFX">
+							<ShortName>Dissolve_Wall_Activated.wav</ShortName>
+							<Path>SFX\Dissolve_Wall_Activated_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2644140661" Name="Play_Dissolve_Wall_Arrow_Repell" ObjectPath="\Events\Default Work Unit\Play_Dissolve_Wall_Arrow_Repell" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.593968" DurationMax="0.593968">
+					<IncludedMemoryFiles>
+						<File Id="695084673" Language="SFX">
+							<ShortName>Dissolve_Wall_Arrow_Repell.wav</ShortName>
+							<Path>SFX\Dissolve_Wall_Arrow_Repell_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1947583317" Name="Play_Dissolve_Wall_Deactivated" ObjectPath="\Events\Default Work Unit\Play_Dissolve_Wall_Deactivated" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.771474" DurationMax="0.771474">
+					<IncludedMemoryFiles>
+						<File Id="970349033" Language="SFX">
+							<ShortName>Dissolve_Wall_Deactivated.wav</ShortName>
+							<Path>SFX\Dissolve_Wall_Deactivated_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1643965814" Name="Play_Dissolve_Wall_is_Active" ObjectPath="\Events\Default Work Unit\Play_Dissolve_Wall_is_Active" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="657247310" Language="SFX">
+							<ShortName>Dissolve_Wall_is_Active.wav</ShortName>
+							<Path>SFX\Dissolve_Wall_is_Active_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1492126678" Name="Play_Dissolve_Wall_Player_Wobble" ObjectPath="\Events\Default Work Unit\Play_Dissolve_Wall_Player_Wobble" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="507058272" Language="SFX">
+							<ShortName>Dissolve_Wall_Player_Wobble.wav</ShortName>
+							<Path>SFX\Dissolve_Wall_Player_Wobble_FEF1CBFB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2292458263" Name="Play_Door_Close" ObjectPath="\Events\Default Work Unit\Play_Door_Close" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.276395" DurationMax="1.276395">
+					<IncludedMemoryFiles>
+						<File Id="31697240" Language="SFX">
+							<ShortName>Door_Close.wav</ShortName>
+							<Path>SFX\Door_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="244621545" Name="Play_Door_Malfunction" ObjectPath="\Events\Default Work Unit\Play_Door_Malfunction" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.458345" DurationMax="1.458345">
+					<IncludedMemoryFiles>
+						<File Id="807535652" Language="SFX">
+							<ShortName>Door_Malfunction.wav</ShortName>
+							<Path>SFX\Door_Malfunction_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1660008929" Name="Play_Door_Open" ObjectPath="\Events\Default Work Unit\Play_Door_Open" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.276395" DurationMax="1.276395">
+					<IncludedMemoryFiles>
+						<File Id="48422451" Language="SFX">
+							<ShortName>Door_Open.wav</ShortName>
+							<Path>SFX\Door_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="381690321" Name="Play_Level_End_Teleporter" ObjectPath="\Events\Default Work Unit\Play_Level_End_Teleporter" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="3.840000" DurationMax="3.840000">
+					<IncludedMemoryFiles>
+						<File Id="711991657" Language="SFX">
+							<ShortName>Level_End_Teleporter.wav</ShortName>
+							<Path>SFX\Level_End_Teleporter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="79097248" Name="Play_LogoMusic" ObjectPath="\Events\Default Work Unit\Play_LogoMusic" DurationType="OneShot" DurationMin="5.734646" DurationMax="5.734646">
+					<IncludedMemoryFiles>
+						<File Id="713416998" Language="SFX">
+							<ShortName>logo02.wav</ShortName>
+							<Path>SFX\logo02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="200807042" Name="Play_LogoMusicB" ObjectPath="\Events\Default Work Unit\Play_LogoMusicB" DurationType="OneShot" DurationMin="6.003900" DurationMax="6.003900">
+					<IncludedMemoryFiles>
+						<File Id="1054727818" Language="SFX">
+							<ShortName>logo01.wav</ShortName>
+							<Path>SFX\logo01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2064360192" Name="Play_Player_Draws_Bow" ObjectPath="\Events\Default Work Unit\Play_Player_Draws_Bow" DurationType="OneShot" DurationMin="0.527788" DurationMax="0.543253">
+					<IncludedMemoryFiles>
+						<File Id="673221172" Language="SFX">
+							<ShortName>Player_Draws_Bow.wav</ShortName>
+							<Path>SFX\Player_Draws_Bow_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="98439365" Name="Play_Player_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Player_Footsteps" DurationType="OneShot" DurationMin="0.107294" DurationMax="0.138227">
+					<IncludedMemoryFiles>
+						<File Id="53053961" Language="SFX">
+							<ShortName>Player_Foodsteps1.wav</ShortName>
+							<Path>SFX\Player_Foodsteps1_10C4C929.wem</Path>
+						</File>
+						<File Id="1010129507" Language="SFX">
+							<ShortName>Player_Foodsteps3.wav</ShortName>
+							<Path>SFX\Player_Foodsteps3_10C4C929.wem</Path>
+						</File>
+						<File Id="1010695871" Language="SFX">
+							<ShortName>Player_Foodsteps4.wav</ShortName>
+							<Path>SFX\Player_Foodsteps4_10C4C929.wem</Path>
+						</File>
+						<File Id="1011116811" Language="SFX">
+							<ShortName>Player_Foodsteps2.wav</ShortName>
+							<Path>SFX\Player_Foodsteps2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1908706837" Name="Play_Player_holds_bow_charged_V2" ObjectPath="\Events\Default Work Unit\Play_Player_holds_bow_charged_V2" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="265952752" Language="SFX">
+							<ShortName>Player_holds_bow_charged_V2.wav</ShortName>
+							<Path>SFX\Player_holds_bow_charged_V2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="562256996" Name="Play_Player_Jump" ObjectPath="\Events\Default Work Unit\Play_Player_Jump" DurationType="OneShot" DurationMin="0.621604" DurationMax="0.658567">
+					<IncludedMemoryFiles>
+						<File Id="617372915" Language="SFX">
+							<ShortName>Player_Jump.wav</ShortName>
+							<Path>SFX\Player_Jump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2614012886" Name="Play_Player_Lands" ObjectPath="\Events\Default Work Unit\Play_Player_Lands" DurationType="OneShot" DurationMin="0.706911" DurationMax="0.748946">
+					<IncludedMemoryFiles>
+						<File Id="835032003" Language="SFX">
+							<ShortName>Player_Lands.wav</ShortName>
+							<Path>SFX\Player_Lands_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1126814180" Name="Play_Player_Move_Wind" ObjectPath="\Events\Default Work Unit\Play_Player_Move_Wind" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="236962077" Language="SFX">
+							<ShortName>Player_Move_Wind.wav</ShortName>
+							<Path>SFX\Player_Move_Wind_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1492645727" Name="Play_Player_releases_bow" ObjectPath="\Events\Default Work Unit\Play_Player_releases_bow" DurationType="OneShot" DurationMin="1.151905" DurationMax="1.185658">
+					<IncludedMemoryFiles>
+						<File Id="129892952" Language="SFX">
+							<ShortName>Player_releases_bow.wav</ShortName>
+							<Path>SFX\Player_releases_bow_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425231895" Name="Play_Player_Slide" ObjectPath="\Events\Default Work Unit\Play_Player_Slide" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="950041293" Language="SFX">
+							<ShortName>Player_Slide.wav</ShortName>
+							<Path>SFX\Player_Slide_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3475857513" Name="Play_Player_Teleport" ObjectPath="\Events\Default Work Unit\Play_Player_Teleport" DurationType="OneShot" DurationMin="4.328345" DurationMax="4.328345">
+					<IncludedMemoryFiles>
+						<File Id="10995867" Language="SFX">
+							<ShortName>Teleport.wav</ShortName>
+							<Path>SFX\Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1540742163" Name="Play_Pot_Break" ObjectPath="\Events\Default Work Unit\Play_Pot_Break" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.793521" DurationMax="1.159771">
+					<IncludedMemoryFiles>
+						<File Id="91915080" Language="SFX">
+							<ShortName>Pot_Break3.wav</ShortName>
+							<Path>SFX\Pot_Break3_10C4C929.wem</Path>
+						</File>
+						<File Id="437412683" Language="SFX">
+							<ShortName>Pot_Break2.wav</ShortName>
+							<Path>SFX\Pot_Break2_10C4C929.wem</Path>
+						</File>
+						<File Id="877377838" Language="SFX">
+							<ShortName>Pot_Break4.wav</ShortName>
+							<Path>SFX\Pot_Break4_10C4C929.wem</Path>
+						</File>
+						<File Id="938002078" Language="SFX">
+							<ShortName>Pot_Break1.wav</ShortName>
+							<Path>SFX\Pot_Break1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3130254894" Name="Play_Pressure_Plate_Activated" ObjectPath="\Events\Default Work Unit\Play_Pressure_Plate_Activated" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.745238" DurationMax="0.745238">
+					<IncludedMemoryFiles>
+						<File Id="584696934" Language="SFX">
+							<ShortName>Pressure_Plate_Activated.wav</ShortName>
+							<Path>SFX\Pressure_Plate_Activated_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1494186105" Name="Play_Pressure_Plate_Deactivated" ObjectPath="\Events\Default Work Unit\Play_Pressure_Plate_Deactivated" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.321474" DurationMax="0.321474">
+					<IncludedMemoryFiles>
+						<File Id="178819508" Language="SFX">
+							<ShortName>Pressure_Plate_Deactivated.wav</ShortName>
+							<Path>SFX\Pressure_Plate_Deactivated_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2476148584" Name="Play_Pull_error" ObjectPath="\Events\Default Work Unit\Play_Pull_error" DurationType="OneShot" DurationMin="0.299728" DurationMax="0.299728">
+					<IncludedMemoryFiles>
+						<File Id="141328502" Language="SFX">
+							<ShortName>Pull_error.wav</ShortName>
+							<Path>SFX\Pull_error_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3506905891" Name="Play_Pull_is_active" ObjectPath="\Events\Default Work Unit\Play_Pull_is_active" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="964484414" Language="SFX">
+							<ShortName>Pull_is_active.wav</ShortName>
+							<Path>SFX\Pull_is_active_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1661558166" Name="Play_UI_Button_Click" ObjectPath="\Events\Default Work Unit\Play_UI_Button_Click" DurationType="OneShot" DurationMin="0.325269" DurationMax="0.334800">
+					<IncludedMemoryFiles>
+						<File Id="165150055" Language="SFX">
+							<ShortName>UI_Button_Click.wav</ShortName>
+							<Path>SFX\UI_Button_Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="310530060" Name="Play_UI_Button_Hover" ObjectPath="\Events\Default Work Unit\Play_UI_Button_Hover" DurationType="OneShot" DurationMin="0.666009" DurationMax="0.666009">
+					<IncludedMemoryFiles>
+						<File Id="272375812" Language="SFX">
+							<ShortName>UI_Button_Hover.wav</ShortName>
+							<Path>SFX\UI_Button_Hover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="485041492" Name="Play_UI_Close_Pause_Menu" ObjectPath="\Events\Default Work Unit\Play_UI_Close_Pause_Menu" DurationType="OneShot" DurationMin="0.818753" DurationMax="0.818753">
+					<IncludedMemoryFiles>
+						<File Id="742354651" Language="SFX">
+							<ShortName>UI_Close_Pause_Menu.wav</ShortName>
+							<Path>SFX\UI_Close_Pause_Menu_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="363100938" Name="Play_UI_Open_Pause_Menu" ObjectPath="\Events\Default Work Unit\Play_UI_Open_Pause_Menu" DurationType="OneShot" DurationMin="0.818753" DurationMax="0.818753">
+					<IncludedMemoryFiles>
+						<File Id="487781566" Language="SFX">
+							<ShortName>UI_OPen_Pause_Menu.wav</ShortName>
+							<Path>SFX\UI_OPen_Pause_Menu_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="962916179" Name="Play_UI_Slider_Hover" ObjectPath="\Events\Default Work Unit\Play_UI_Slider_Hover" DurationType="OneShot" DurationMin="0.666009" DurationMax="0.666009">
+					<IncludedMemoryFiles>
+						<File Id="272375812" Language="SFX">
+							<ShortName>UI_Button_Hover.wav</ShortName>
+							<Path>SFX\UI_Button_Hover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1400770022" Name="Play_UI_Slider_slide" ObjectPath="\Events\Default Work Unit\Play_UI_Slider_slide" DurationType="OneShot" DurationMin="0.212472" DurationMax="0.212472">
+					<IncludedMemoryFiles>
+						<File Id="986888366" Language="SFX">
+							<ShortName>UI_Slider_slide.wav</ShortName>
+							<Path>SFX\UI_Slider_slide_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3766342464" Name="PlayIngame_Music" ObjectPath="\Events\Default Work Unit\PlayIngame_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="450139511" Language="SFX">
+							<ShortName>Project Artemis Puzzle loop 1 - Final.wav</ShortName>
+							<Path>SFX\Project Artemis Puzzle loop 1 - Final_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2612038585" Name="PlayIngameMovementMusic1" ObjectPath="\Events\Default Work Unit\PlayIngameMovementMusic1" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="492309388" Language="SFX">
+							<ShortName>Project Artemis Parkour loop 1 - Final.wav</ShortName>
+							<Path>SFX\Project Artemis Parkour loop 1 - Final_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2612038586" Name="PlayIngameMovementMusic2" ObjectPath="\Events\Default Work Unit\PlayIngameMovementMusic2" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="139450655" Language="SFX">
+							<ShortName>Project Artemis - Parkour Loop 2 - Final.wav</ShortName>
+							<Path>SFX\Project Artemis - Parkour Loop 2 - Final_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3072274270" Name="PlayMenu_Music" ObjectPath="\Events\Default Work Unit\PlayMenu_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="546264479" Language="SFX">
+							<ShortName>Project Artemis Puzzle loop 2 - Final.wav</ShortName>
+							<Path>SFX\Project Artemis Puzzle loop 2 - Final_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="439638181" Name="Stop_Active_Connection" ObjectPath="\Events\Default Work Unit\Stop_Active_Connection" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2015160956" Name="Stop_Dissolve_Wall_is_Active" ObjectPath="\Events\Default Work Unit\Stop_Dissolve_Wall_is_Active" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="705667684" Name="Stop_Dissolve_Wall_Player_Wobble" ObjectPath="\Events\Default Work Unit\Stop_Dissolve_Wall_Player_Wobble" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3266664515" Name="Stop_Player_holds_bow_charged_V2" ObjectPath="\Events\Default Work Unit\Stop_Player_holds_bow_charged_V2" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3630559470" Name="Stop_Player_Move_Wind" ObjectPath="\Events\Default Work Unit\Stop_Player_Move_Wind" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3309779001" Name="Stop_Player_Slide" ObjectPath="\Events\Default Work Unit\Stop_Player_Slide" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3682591869" Name="Stop_Pull_is_active" ObjectPath="\Events\Default Work Unit\Stop_Pull_is_active" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="884858177" Name="Pot_Scale" ObjectPath="\Game Parameters\Environment\Pot_Scale"/>
+				<GameParameter Id="1352608351" Name="General_Velocity" ObjectPath="\Game Parameters\Player\General_Velocity"/>
+				<GameParameter Id="4044950198" Name="Horizontal_Momentum" ObjectPath="\Game Parameters\Player\Horizontal_Momentum"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

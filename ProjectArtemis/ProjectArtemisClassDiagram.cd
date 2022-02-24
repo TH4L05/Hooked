@@ -1,0 +1,882 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="@Controls" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="@Controls.MovementActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Input\Controls.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="@Controls.UIActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Input\Controls.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="@Controls.OtherActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Input\Controls.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Interface Name="@Controls.IMovementActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Input\Controls.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Interface Name="@Controls.IUIActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Input\Controls.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Interface Name="@Controls.IOtherActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Input\Controls.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAGQQhACAAUBABgAAACRAAIQAwAGEEAAIgJBARIIA=</HashCode>
+      <FileName>Assets\Input\Controls.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="6.75" Y="11.25" Width="1.5" />
+    <AssociationLine Name="data" Type="CharacterData" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="11.625" />
+        <Point X="8.875" Y="11.625" />
+        <Point X="8.875" Y="12" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQABEAAAGAAIAAAAAAAEAAAABBAAAAgABAQgAAAAkA=</HashCode>
+      <FileName>Assets\Script\Character\Character.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CharacterData" Collapsed="true">
+    <Position X="8" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAGgAKAAAEAAAAACAIAAACAAAAAAAAAAEAEAAAAA=</HashCode>
+      <FileName>Assets\Script\Character\CharacterData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Health" Collapsed="true">
+    <Position X="10.25" Y="11.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="10.185" />
+        <Point X="9.667" Y="10.185" Type="JumpStart" />
+        <Point X="9.833" Y="10.185" Type="JumpEnd" />
+        <Point X="11" Y="10.185" />
+        <Point X="11" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAARCAAKACAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Script\Character\Health.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="6.75" Y="13.25" Width="1.5" />
+    <AssociationLine Name="weaponController" Type="WeaponController" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="13.596" />
+        <Point X="9.75" Y="13.596" />
+        <Point X="9.75" Y="6.941" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="movement" Type="PlayerMovement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="13.625" />
+        <Point X="5" Y="13.625" />
+        <Point X="5" Y="12.441" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgQgkEAAChYELAAAgAAgAQABAACAQAAAEQBIAAIAEQA=</HashCode>
+      <FileName>Assets\Script\Character\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="weaponController" />
+      <Field Name="movement" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlayerMovement" Collapsed="true">
+    <Position X="4.25" Y="11.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="10.199" />
+        <Point X="6.333" Y="10.199" Type="JumpStart" />
+        <Point X="6.167" Y="10.199" Type="JumpEnd" />
+        <Point X="5" Y="10.199" />
+        <Point X="5" Y="11.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQKcEAURKAiqAAHgAIAAgB0AkhA4RAIFABBAwogEUQ=</HashCode>
+      <FileName>Assets\Script\Character\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clock" Collapsed="true">
+    <Position X="37" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.56" />
+        <Point X="16.917" Y="5.56" Type="JumpStart" />
+        <Point X="17.083" Y="5.56" Type="JumpEnd" />
+        <Point X="28" Y="5.56" />
+        <Point X="28" Y="4.25" />
+        <Point X="37.75" Y="4.25" />
+        <Point X="37.75" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAiBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUA=</HashCode>
+      <FileName>Assets\Script\Clock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DontDestroy" Collapsed="true">
+    <Position X="42" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\DontDestroy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Door" Collapsed="true">
+    <Position X="40" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAADgAACAAAAAAACAAAAAAIBAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Script\Door.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FollowPath" Collapsed="true">
+    <Position X="29.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAIAACQAAAAAAAAAAAAAAAIEAQCAAAAAAAIAAQA=</HashCode>
+      <FileName>Assets\Script\FollowPath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogSystem" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABBgAAAAAAAAAAAAAAEAAAAAAAAAIAAAAACAAAA=</HashCode>
+      <FileName>Assets\Script\Game\DialogSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogText" Collapsed="true">
+    <Position X="41" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAgBAAAAACAAAAAAAABAAAEAAAIBAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Game\DialogText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="32.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQBAABAAAAAAAAAAAAABAAACCgAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\Game\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameData" Collapsed="true">
+    <Position X="36.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAQAACCAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Game\GameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEvents" Collapsed="true">
+    <Position X="37.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAUAEAAAAAgIICIgQAACACAAA=</HashCode>
+      <FileName>Assets\Script\Game\GameEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level" Collapsed="true">
+    <Position X="44.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAABIAAAAAAAEAAwAAAADAAAABgAEAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\Game\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsData" Collapsed="true">
+    <Position X="35.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAEEMEAAAABAYIAAEGAGAAAMCEgYAAYAAgAGACAAg=</HashCode>
+      <FileName>Assets\Script\Game\SettingsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HookNode" Collapsed="true">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAgAAEAIAAgAAgAAAAAAAAAAACAgAAAEI=</HashCode>
+      <FileName>Assets\Script\Hook\HookNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HookSystem" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFEAABHCIEhgAgGBkBIIAtQmIMAKgACEQEIAAAAkA=</HashCode>
+      <FileName>Assets\Script\Hook\HookSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RopeLine" Collapsed="true">
+    <Position X="41" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAEAAAAAAAAAAAAAAAAAAAAgAAAQACAAgAAA=</HashCode>
+      <FileName>Assets\Script\Hook\RopeLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputController" Collapsed="true">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="7.623" />
+        <Point X="7.133" Y="7.623" Type="JumpStart" />
+        <Point X="6.967" Y="7.623" Type="JumpEnd" />
+        <Point X="5.333" Y="7.623" Type="JumpStart" />
+        <Point X="5.167" Y="7.623" Type="JumpEnd" />
+        <Point X="3.5" Y="7.623" />
+        <Point X="3.5" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgBAIAAJCjCEAAIAAgAIAASBAAGSQRQMEAKQABBAkA=</HashCode>
+      <FileName>Assets\Script\Input\InputController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputHandler" Collapsed="true">
+    <Position X="5.5" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="7.609" />
+        <Point X="7.133" Y="7.609" Type="JumpStart" />
+        <Point X="6.967" Y="7.609" Type="JumpEnd" />
+        <Point X="6.25" Y="7.609" />
+        <Point X="6.25" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="inputController" Type="InputController" FixedFromPoint="true">
+      <Path>
+        <Point X="5.5" Y="8.5" />
+        <Point X="4.25" Y="8.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="hookSystem" Type="HookSystem" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="8.188" />
+        <Point X="5.25" Y="8.188" />
+        <Point X="5.25" Y="7.302" />
+        <Point X="6.062" Y="7.302" />
+        <Point X="6.062" Y="6.941" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="player" Type="Player" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="8.691" />
+        <Point X="6.25" Y="13.375" />
+        <Point X="6.75" Y="13.375" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="weaponController" Type="WeaponController" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="8.312" />
+        <Point X="7.05" Y="8.312" />
+        <Point X="7.05" Y="6.625" />
+        <Point X="7.417" Y="6.625" Type="JumpStart" />
+        <Point X="7.583" Y="6.625" Type="JumpEnd" />
+        <Point X="9" Y="6.625" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAgEAAAiAAFAQCAAAAAAIAAAAAAQABAgICQAEAJBA=</HashCode>
+      <FileName>Assets\Script\Input\InputHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="inputController" />
+      <Field Name="hookSystem" />
+      <Field Name="player" />
+      <Field Name="weaponController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DestructableItem" Collapsed="true">
+    <Position X="16.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAABBAAAAAAAAAAABAgACCQAgAAAACAIA=</HashCode>
+      <FileName>Assets\Script\Item\DestructableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interactable" Collapsed="true">
+    <Position X="16.5" Y="9" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="10.174" />
+        <Point X="9.667" Y="10.174" Type="JumpStart" />
+        <Point X="9.833" Y="10.174" Type="JumpEnd" />
+        <Point X="17.25" Y="10.174" />
+        <Point X="17.25" Y="9.691" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIQASAABQIAAAAAAgAAIAAAIAEAAAACBCgAAABQACE=</HashCode>
+      <FileName>Assets\Script\Item\Interactable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="16.5" Y="10.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="10.174" />
+        <Point X="9.667" Y="10.174" Type="JumpStart" />
+        <Point X="9.833" Y="10.174" Type="JumpEnd" />
+        <Point X="17.25" Y="10.174" />
+        <Point X="17.25" Y="10.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAIAAAAAAIAAAABAAAAAQgAAAAEA=</HashCode>
+      <FileName>Assets\Script\Item\Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="data" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ItemData" Collapsed="true">
+    <Position X="14.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABIAAAAAQAAAAAAAAAAAAAAAAAAAiAAAAAgg=</HashCode>
+      <FileName>Assets\Script\Item\ItemData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="itemType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PushObjects" Collapsed="true">
+    <Position X="2.5" Y="10.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="10.185" />
+        <Point X="6.333" Y="10.185" Type="JumpStart" />
+        <Point X="6.167" Y="10.185" Type="JumpEnd" />
+        <Point X="3.25" Y="10.185" />
+        <Point X="3.25" Y="10.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAACgAAAA=</HashCode>
+      <FileName>Assets\Script\Item\PushObjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelPart" Collapsed="true">
+    <Position X="35.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PALE\LevelParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelParts" Collapsed="true">
+    <Position X="37.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PALE\LevelParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile" Collapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="4.16" />
+        <Point X="8.967" Y="4.16" Type="JumpStart" />
+        <Point X="9.133" Y="4.16" Type="JumpEnd" />
+        <Point X="17" Y="4.16" />
+        <Point X="17" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQAAAAAIAAAABAAAAAQQAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Script\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserBeam" Collapsed="true">
+    <Position X="22.5" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.601" />
+        <Point X="16.917" Y="5.601" Type="JumpStart" />
+        <Point X="17.083" Y="5.601" Type="JumpEnd" />
+        <Point X="21.925" Y="5.601" />
+        <Point X="21.925" Y="8.875" />
+        <Point X="22.5" Y="8.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAACAAAAQAAAAIAAAABAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\Puzzle\LaserBeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserReciver" Collapsed="true">
+    <Position X="24.5" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.566" />
+        <Point X="16.917" Y="5.566" Type="JumpStart" />
+        <Point X="17.083" Y="5.566" Type="JumpEnd" />
+        <Point X="26.57" Y="5.566" />
+        <Point X="26.57" Y="8.812" />
+        <Point X="26" Y="8.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAACCAAAAAAABAAAgAAAAAAABAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Puzzle\LaserReciver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagneticFIeld" Collapsed="true">
+    <Position X="22.5" Y="9.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.615" />
+        <Point X="16.917" Y="5.615" Type="JumpStart" />
+        <Point X="17.083" Y="5.615" Type="JumpEnd" />
+        <Point X="21.932" Y="5.615" />
+        <Point X="21.932" Y="9.875" />
+        <Point X="22.5" Y="9.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAhDAAAAAAAAAAAAQAAIAAAAAAMAAAAEA=</HashCode>
+      <FileName>Assets\Script\Puzzle\MagneticFIeld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiPressureButton" Collapsed="true">
+    <Position X="42.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAIAGAAAAABIAAAAAAAAACAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Script\Puzzle\MultiPressureButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal" Collapsed="true">
+    <Position X="34.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACQAAAAAIAAAABAQIAAABJAAQAAABAAAAAA=</HashCode>
+      <FileName>Assets\Script\Puzzle\Portal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PortalableObject" Collapsed="true">
+    <Position X="35.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAAAAAAAAQQAAAAAAAAQAAAAAACAIAgEAAAAEA=</HashCode>
+      <FileName>Assets\Script\Puzzle\PortalableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PortalCamera" Collapsed="true">
+    <Position X="31.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACAAAAAAAAAAAAAAAAAAAAABACEAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Puzzle\PortalCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PortalTest" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAAAAAAEAAAAAACIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Puzzle\PortalTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PressureButton" Collapsed="true">
+    <Position X="22.5" Y="6.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.61" />
+        <Point X="16.917" Y="5.61" Type="JumpStart" />
+        <Point X="17.083" Y="5.61" Type="JumpEnd" />
+        <Point X="21.96" Y="5.61" />
+        <Point X="21.96" Y="6.875" />
+        <Point X="22.5" Y="6.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAAAAKQAgAAkAACAoAAAQAAACAAAAA=</HashCode>
+      <FileName>Assets\Script\Puzzle\PressureButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShootTargets" Collapsed="true">
+    <Position X="22.5" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.575" />
+        <Point X="16.917" Y="5.575" Type="JumpStart" />
+        <Point X="17.083" Y="5.575" Type="JumpEnd" />
+        <Point X="21.946" Y="5.575" />
+        <Point X="21.946" Y="7.875" />
+        <Point X="22.5" Y="7.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACCAAAAAAAAAAAAAACAAIAAACABAAABAAAA=</HashCode>
+      <FileName>Assets\Script\Puzzle\ShootTargets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Target" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="4.191" />
+        <Point X="19.148" Y="4.191" />
+        <Point X="19.148" Y="5.596" />
+        <Point X="26.553" Y="5.596" />
+        <Point X="26.553" Y="7.938" />
+        <Point X="26" Y="7.938" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Script\Puzzle\Target.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room" Collapsed="true">
+    <Position X="44.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAIICQAAAAAgAAAAgAAICAAAAoFAAEEAQAAAEE=</HashCode>
+      <FileName>Assets\Script\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rope" Collapsed="true">
+    <Position X="34.75" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.566" />
+        <Point X="16.917" Y="5.566" Type="JumpStart" />
+        <Point X="17.083" Y="5.566" Type="JumpEnd" />
+        <Point X="28" Y="5.566" />
+        <Point X="28" Y="4.25" />
+        <Point X="35.5" Y="4.25" />
+        <Point X="35.5" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABQAAACGACAAAEAgAAAAAAgIAEAAgAAEBEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Rope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Serialization" Collapsed="true">
+    <Position X="40.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAACCAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Serialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnObject" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.626" />
+        <Point X="16.917" Y="5.626" Type="JumpStart" />
+        <Point X="17.083" Y="5.626" Type="JumpEnd" />
+        <Point X="25.25" Y="5.626" />
+        <Point X="25.25" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAIAAAAAAAAAAAAAAAAABAAABAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\SpawnObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAEAEAABAAABAAIQAQACAAAAAAgAAIAIBAgAAAAI=</HashCode>
+      <FileName>Assets\Script\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trigger" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAABAAAAJAAAAAAgAgAJAAQAgAAAAAAkA=</HashCode>
+      <FileName>Assets\Script\Trigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerEvents" Collapsed="true">
+    <Position X="30.25" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.566" />
+        <Point X="16.917" Y="5.566" Type="JumpStart" />
+        <Point X="17.083" Y="5.566" Type="JumpEnd" />
+        <Point X="28" Y="5.566" />
+        <Point X="28" Y="4.25" />
+        <Point X="31" Y="4.25" />
+        <Point X="31" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAMAAAAAAABAAAAAAABAAgA=</HashCode>
+      <FileName>Assets\Script\TriggerEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IngameMenu" Collapsed="true">
+    <Position X="46" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.609" />
+        <Point X="16.917" Y="5.609" Type="JumpStart" />
+        <Point X="17.083" Y="5.609" Type="JumpEnd" />
+        <Point X="28" Y="5.609" />
+        <Point X="28" Y="4.25" />
+        <Point X="46.75" Y="4.25" />
+        <Point X="46.75" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CABgAgBAgAAAEAAAAAQAAAAAEAAAIBAAAAAAAAgQAUA=</HashCode>
+      <FileName>Assets\Script\Ui\IngameMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IngameUI" Collapsed="true">
+    <Position X="35.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAACAACAACAAhAAAQAAAAAAAAIAAAAgACkBAABAA=</HashCode>
+      <FileName>Assets\Script\Ui\IngameUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelButton" Collapsed="true">
+    <Position X="32.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAQAAEAARAAAAAAABACQCAAQoAAAAAAAgAQBAKig=</HashCode>
+      <FileName>Assets\Script\Ui\LevelButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LevelData" Collapsed="true">
+    <Position X="41" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAA=</HashCode>
+      <FileName>Assets\Script\Ui\LevelData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadScene" Collapsed="true">
+    <Position X="25.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAQIAQAAAAAIAACAAAAgAAIAAAABQAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Ui\LoadScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuLevel" Collapsed="true">
+    <Position X="31" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Ui\MenuLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuMain" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Script\Ui\MenuMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuPlayerProfile" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Script\Ui\MenuPlayerProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuRotation" Collapsed="true">
+    <Position X="48.25" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="4.441" />
+        <Point X="7.5" Y="5.559" />
+        <Point X="16.917" Y="5.559" Type="JumpStart" />
+        <Point X="17.083" Y="5.559" Type="JumpEnd" />
+        <Point X="28" Y="5.559" />
+        <Point X="28" Y="4.25" />
+        <Point X="49" Y="4.25" />
+        <Point X="49" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAACCAAAQAAAAAAAgAAAAAAAAAAAAAABABAAAAgAAA=</HashCode>
+      <FileName>Assets\Script\Ui\MenuRotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OptionsMenu" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACSkIAEEAAQAABAAAUHAECAAAAAQAAARAAwACAAAEQ=</HashCode>
+      <FileName>Assets\Script\Ui\OptionsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerProfileData" Collapsed="true">
+    <Position X="38.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCAAAAAAAAAAAAAACAAAAgAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Ui\PlayerProfileData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerProfileSlot" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgEAgIAEAEAAACAAAAEAAAAABAABBAAQAAAQAAAAAAE=</HashCode>
+      <FileName>Assets\Script\Ui\PlayerProfileSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UiBar" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAAACQAAAIAgAAAIAAAAAEAAAAAACAQACAAAgA=</HashCode>
+      <FileName>Assets\Script\Ui\UiBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KillParticleSystems" Collapsed="true">
+    <Position X="28" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAACAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\VFX\KillParticleSystems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rotate" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\VFX\Rotate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnParticlesOnCollision" Collapsed="true">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\VFX\SpawnParticlesOnCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon" Collapsed="true">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xAQgAEgAACAABBQAHAAAoAAKACCAABAACRQQAREBABE=</HashCode>
+      <FileName>Assets\Script\Weapon\Weapon.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WeaponController" Collapsed="true">
+    <Position X="9" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACAAAABAAEAABAAAAAAADAAAAAAAUAAgAwA=</HashCode>
+      <FileName>Assets\Script\Weapon\WeaponController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponData" Collapsed="true">
+    <Position X="10.75" Y="7.5" Width="1.5" />
+    <AssociationLine Name="rarityValue" Type="Rarity" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.25" Y="7.875" />
+        <Point X="12.625" Y="7.875" />
+        <Point X="12.625" Y="8.531" />
+        <Point X="13.5" Y="8.531" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="type" Type="WeaponType" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.25" Y="7.75" />
+        <Point X="12.575" Y="7.75" />
+        <Point X="12.575" Y="7.031" />
+        <Point X="13.5" Y="7.031" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="sType" Type="ShootType" FixedFromPoint="true">
+      <Path>
+        <Point X="12.25" Y="7.812" />
+        <Point X="13.5" Y="7.812" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAACAAAAEjAAAAICAAAAAEFAAIAAAEAEQIAAAA=</HashCode>
+      <FileName>Assets\Script\Weapon\WeaponData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rarityValue" />
+      <Field Name="type" />
+      <Field Name="sType" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="IDamageable" Collapsed="true">
+    <Position X="10" Y="9.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Script\Game\IDamageable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IPortableObject" Collapsed="true">
+    <Position X="36.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Puzzle\PortalableObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ItemType" Collapsed="true">
+    <Position X="14.25" Y="11.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAAAAAAAAAAAAAAAICAAAAAAAAgEAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Script\Item\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LevelStatus" Collapsed="true">
+    <Position X="36.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Ui\LevelData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WeaponType" Collapsed="true">
+    <Position X="13.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAEAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Weapon\WeaponData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Rarity" Collapsed="true">
+    <Position X="13.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAEAAAAAAQAAAAAAAAgAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Weapon\WeaponData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShootType" Collapsed="true">
+    <Position X="13.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAQAEAAAAAAAAAAgAAIAA=</HashCode>
+      <FileName>Assets\Script\Weapon\WeaponData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

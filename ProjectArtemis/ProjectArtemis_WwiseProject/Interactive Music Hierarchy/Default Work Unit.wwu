@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BA0B768C-74D9-4865-943A-8BD1256C2C94}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{BA0B768C-74D9-4865-943A-8BD1256C2C94}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="IngameMovement1" ID="{0742F648-10AB-41D9-94D8-C74CE8FF6404}" ShortID="568428304">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B07D337-A117-4389-A72F-31029CFC6700}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{5E0E557D-677C-4E1F-AF94-D61666ACA94F}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="IngameMovement1" ID="{4670BD3F-4A80-4060-8EBA-A4EEF7B515B6}" ShortID="185230714">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="90713.7641723356"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B07D337-A117-4389-A72F-31029CFC6700}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{5E0E557D-677C-4E1F-AF94-D61666ACA94F}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="ParkourLoop1" ID="{ABDFE586-75E3-49F2-8482-38A1D5E3297E}" ShortID="219542058">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Project Artemis Parkour loop 1 - Final" ID="{B5F691E9-5DCC-4BD1-B3FB-38277A3C2B0F}">
+											<Language>SFX</Language>
+											<AudioFile>Project Artemis Parkour loop 1 - Final.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="492309388"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0640A943-E3A8-4CEC-9DCE-D8D4C2F74BE9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1601EC93-7680-4835-9945-24132CFB98DA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Project Artemis Parkour loop 1 - Final" ID="{54EECE12-0E6C-453C-8999-7AA474ACC355}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="90713.7641723356"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Project Artemis Parkour loop 1 - Final" ID="{B5F691E9-5DCC-4BD1-B3FB-38277A3C2B0F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{2B91BDFC-DC04-4C36-8E50-22942B7F9B87}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{6607F54B-E92F-4534-A16B-F70EAD292691}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="90713.7641723356"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{70A97AC5-900D-434B-B67E-EC564FD301CB}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{0EADDBFD-E045-4DE5-92E5-38BD571838BE}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{CFC8AA40-5336-437B-91A9-A5CE7F2BD113}" ShortID="91746670">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{786FE083-2951-467B-B75C-000B56D93502}" ShortID="152061413">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="IngameMovement1" ID="{4670BD3F-4A80-4060-8EBA-A4EEF7B515B6}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="IngameMovement2" ID="{F1E85660-E714-4D71-AA57-9E1C5FECC0D1}" ShortID="867187370">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B07D337-A117-4389-A72F-31029CFC6700}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{5E0E557D-677C-4E1F-AF94-D61666ACA94F}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="IngameMovement2" ID="{0EFD60AB-03E4-469D-987C-6292A98E1609}" ShortID="578168807">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="89000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B07D337-A117-4389-A72F-31029CFC6700}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{5E0E557D-677C-4E1F-AF94-D61666ACA94F}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="ParkourLoop2" ID="{BC04AB80-6A39-4960-9D7A-74518900E931}" ShortID="488880534">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Project Artemis - Parkour Loop 2 - Final" ID="{B839DBEE-741B-4972-ADE0-4A170638685E}">
+											<Language>SFX</Language>
+											<AudioFile>Project Artemis - Parkour Loop 2 - Final.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="139450655"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8D9A9620-93DE-4BE4-BF69-32C6D5C682DB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F4CC2F01-0EAB-4BDB-ACD5-01060E0E92F7}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Project Artemis - Parkour Loop 2 - Final" ID="{9B551499-CA2A-4684-939F-92FA8F32478B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="89000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Project Artemis - Parkour Loop 2 - Final" ID="{B839DBEE-741B-4972-ADE0-4A170638685E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{4ADC8237-1CA7-451B-9B64-761B0E4B117E}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{42710EA9-2C69-4085-9142-35E1B8669217}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="88000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{A0A2CFC1-4C60-4D02-8AF7-23844B15DECC}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{6413D6D7-2333-451B-B5C7-ADA84A779A05}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{C434FDC1-C0D9-4D76-96F8-21926B5942A8}" ShortID="1018690671">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{DEC060CF-0C1E-4380-AD4A-72B0338194BB}" ShortID="941045007">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="IngameMovement2" ID="{0EFD60AB-03E4-469D-987C-6292A98E1609}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="IngamePuzzle" ID="{7BFC59CA-650A-4D3F-8BE8-0A2DC1EAC2E7}" ShortID="289616263">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B07D337-A117-4389-A72F-31029CFC6700}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{5E0E557D-677C-4E1F-AF94-D61666ACA94F}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="IngamePuzzle" ID="{7AEE48C7-1139-4463-A8FE-33CDC2D2CC67}" ShortID="469751064">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="EndPosition" Type="Real64" Value="101647.052154195"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B07D337-A117-4389-A72F-31029CFC6700}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{5E0E557D-677C-4E1F-AF94-D61666ACA94F}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="PuzzleLoop" ID="{D90F9427-B5BB-4AF7-99DE-A00C020450DD}" ShortID="937041846">
+									<PropertyList>
+										<Property Name="OverrideEarlyReflections" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Project Artemis Puzzle loop 1 - Final" ID="{86314BDA-5EDB-46B1-99C9-F6DACBACA67B}">
+											<Language>SFX</Language>
+											<AudioFile>Project Artemis Puzzle loop 1 - Final.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="450139511"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{17E50200-D42D-43F0-BE5E-B8731EA01AAB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{BEAB8F01-31E8-4310-9F7C-63154E4C643F}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0E9C7E46-C390-4C8E-BA05-7BF4327CC24B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Project Artemis Puzzle loop 1 - Final" ID="{0E10160E-5F06-47E3-A9F9-2DB61A96A68D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="101647.052154195"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Project Artemis Puzzle loop 1 - Final" ID="{86314BDA-5EDB-46B1-99C9-F6DACBACA67B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{F6B0ECDB-51B2-4EC7-AECB-6EED04655AEF}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{E0A64668-BA90-4972-AA09-6F16352855E7}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="101647.052154195"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{770B7EA5-0048-414D-93C1-EDEC27567986}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{73E0A5DD-994D-4E4D-89D3-195368517412}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{2D6CDA28-4FE3-4899-AD71-06A23CC3032D}" ShortID="294267144">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{786AC1FB-3B4A-487B-888A-92D7F04396D1}" ShortID="456905800">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="IngamePuzzle" ID="{7AEE48C7-1139-4463-A8FE-33CDC2D2CC67}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Menu" ID="{56EFDAF5-7680-4A8E-8DF8-A696DD341FF6}" ShortID="727029132">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B07D337-A117-4389-A72F-31029CFC6700}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{5E0E557D-677C-4E1F-AF94-D61666ACA94F}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Menu" ID="{B63C53CF-5024-4893-B009-76C09A583BA6}" ShortID="897390879">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="EndPosition" Type="Real64" Value="118588.231292517"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B07D337-A117-4389-A72F-31029CFC6700}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{5E0E557D-677C-4E1F-AF94-D61666ACA94F}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="PuzzleLoop2" ID="{23939C04-E2E5-4F79-98CF-6EB8AD7ADC49}" ShortID="701327874">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39A44DBF-2C19-4303-8C2F-4C7A8A17017B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Project Artemis Puzzle loop 2 - Final" ID="{4905D829-A40E-4F9F-A90E-04FE23EDA557}">
+											<Language>SFX</Language>
+											<AudioFile>Project Artemis Puzzle loop 2 - Final.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546264479"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3DFD81BA-A590-4E78-82F7-F1BF381F646B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C7EB4DD1-30D7-4F72-A930-1E7EDF2E72BA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Project Artemis Puzzle loop 2 - Final" ID="{B35DEE6E-19AA-4047-AE53-DE40FE492973}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="118588.231292517"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Project Artemis Puzzle loop 2 - Final" ID="{4905D829-A40E-4F9F-A90E-04FE23EDA557}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{93D91FBF-011C-4BC3-A981-BCDFED4AAFE5}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{7ADDF7CA-2834-4F29-9D22-8ADA8F21901B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="118588.231292517"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{7D79DD99-3A28-4018-89E4-35A7CCA565C7}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{89960EF6-745C-42E2-95E9-217A6C0374B5}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{DB95930E-F361-43D2-B554-029449E0EA0E}" ShortID="888375697">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{959B9D0C-B2A3-452F-9B96-9D12B9170062}" ShortID="510140129">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Menu" ID="{B63C53CF-5024-4893-B009-76C09A583BA6}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

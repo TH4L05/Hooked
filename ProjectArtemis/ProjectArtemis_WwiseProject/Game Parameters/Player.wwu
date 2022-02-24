@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E69B2CCA-BE6A-4ABF-B6BC-753EB0DCFF4C}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Player" ID="{E69B2CCA-BE6A-4ABF-B6BC-753EB0DCFF4C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Vertical_Velocity" ID="{E599A07F-2221-454E-91BA-B3908582FBD4}">
+					<PropertyList>
+						<Property Name="Max" Type="Real64" Value="50"/>
+						<Property Name="Min" Type="Real64" Value="-100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Horizontal_Momentum" ID="{10AB6784-4E1A-437A-A917-3EEC820E7F85}"/>
+				<GameParameter Name="General_Velocity" ID="{40C37C2C-5A54-497B-931B-889B8A07DFF5}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

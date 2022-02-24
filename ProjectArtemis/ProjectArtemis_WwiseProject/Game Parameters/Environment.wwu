@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6F015E0-EBC1-42FB-8A5C-18177C464765}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Environment" ID="{B6F015E0-EBC1-42FB-8A5C-18177C464765}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Pot_Scale" ID="{847D0CD3-2FB2-4ACB-AF28-0F6A8FC21334}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B64899D-41A3-4EF8-9A43-D66D2966268B}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2B64899D-41A3-4EF8-9A43-D66D2966268B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{9BD32ADA-9411-4953-B114-E29120D229EC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Player_releases_bow" ID="{653169D0-BC20-402A-B622-6850028B57DA}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dissolve_Wall_is_Active" ID="{8BB19A2B-25A0-4046-9D25-2A0DEA09193F}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Arrow_hits_hookable_object" ID="{ED4A48A0-A31B-4057-A606-741580BBD8CE}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dissolve_Wall_Player_Wobble" ID="{1648866B-6473-408C-A2FB-894EC46118E9}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Cube_Impact" ID="{0CB45ACA-B6B3-41D8-9DB1-9FA79103E176}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LogoMusicB" ID="{7F67086A-BDD9-4201-A26A-2D83121B1446}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LogoMusic" ID="{BC613998-833C-420A-AF7E-44C74E579462}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Move_Wind" ID="{E0D4977F-4F9A-42EA-8D2C-015C0044EF2B}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Dissolve_Wall_Player_Wobble" ID="{690AE3E2-A9C8-42FE-8E89-EA860329B087}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Active_Connection" ID="{AE754672-6C03-4329-BE7F-EA8289512E8E}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Open_Pause_Menu" ID="{CEEAFB8E-F5E8-4380-9A26-D482437021E0}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Button_Click" ID="{5F492504-FAC1-438D-8210-5872EC4A4E2A}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pressure_Plate_Activated" ID="{9C11C837-991C-440F-BDDF-211FB5492F60}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DampMusicStart" ID="{978BD188-2576-4417-9E9A-3B872D6EB933}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pot_Break" ID="{6C7F1FF9-F23E-44ED-9BBB-3426CB860E32}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Connection_gets_interrupted" ID="{5F6394C5-1EF1-4509-A374-481B6509A171}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Cube_Teleport" ID="{44ED05CE-FDBA-4511-AAB4-E8328049B671}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayIngame_Music" ID="{B8B2CC12-AB38-4561-901D-9AB51D7D2EA0}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Dissolve_Wall_is_Active" ID="{62ABEEDD-212A-45D3-9DEF-4BA8AC3695D8}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_Close" ID="{9ED6FEF9-C56D-4606-8766-EA29536D47FD}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_Open" ID="{C8B32353-426D-4632-9E0D-ABDFD30369A1}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Lands" ID="{D0B90251-D492-46AE-8446-B158554DA151}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Player_Move_Wind" ID="{D20376F0-F571-4713-BCBA-AE044A25B976}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Slider_Hover" ID="{0D15AE8B-12C4-47A1-92E2-BCC0AF911C62}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Pull_is_active" ID="{796958AB-CFB0-48A6-A0C1-A673F0B8344B}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Player_Slide" ID="{CF3EFA50-3CFA-492C-ADBF-6C7681CC17ED}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Player_holds_bow_charged_V2" ID="{4F4D71BC-F665-4A10-A42F-34D1BB713803}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Connection_established_Arrow" ID="{672D33F1-1CC5-4A26-A121-8E6111AEEB35}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Footsteps" ID="{CB21CF18-0AFD-4A2B-A680-5FC0CD6E7B9C}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Teleport" ID="{02000A3F-E355-4A8A-8AEB-D01F2A1BF046}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Active_Connection" ID="{BCDCC929-705D-4AC2-8681-453ED71E60BE}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Slider_slide" ID="{3EDD8E8B-AF63-4AF9-A1B7-51CE83F1AB74}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DampMusicStop" ID="{69AD7647-3F39-4B03-B37A-33FD37D85EEB}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dissolve_Wall_Arrow_Repell" ID="{A722AD49-8539-4B51-9BDE-A595149C44CF}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pull_is_active" ID="{DA9D356D-33B8-4B96-B0A8-4A7C3E614978}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Cube_Spawn" ID="{305BAC9D-6E17-4BCC-BDBA-A4B6B5BEC835}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Jump" ID="{012A0B7E-C73E-4C35-A3CB-D7CB0F264FEE}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayIngameMovementMusic2" ID="{BEEF4E7D-14EF-4C5F-B8E9-319FB7551B92}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dissolve_Wall_Activated" ID="{E055D035-F7ED-4C7B-9240-C72D104E6487}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_Malfunction" ID="{A397BAA4-3B05-4C8A-942A-0D75503C416B}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_holds_bow_charged_V2" ID="{D5BCD8D4-3163-4CDD-AD66-C717612C25D9}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Slide" ID="{DDAABCBE-4500-4CF3-9A8A-74505CF64AE7}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Draws_Bow" ID="{5067D41A-7EC6-4D00-BDB4-B18441A5BB4C}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dissolve_Wall_Deactivated" ID="{4FACBF52-4770-4D01-B5DB-485ADFEF487B}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayIngameMovementMusic1" ID="{23205F1F-FA5E-4D5A-B025-2AC93FD17FAC}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pull_error" ID="{D789CE2F-F8FA-4D89-AE43-8CBFEE99A52A}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Arrow_gets_destroyed" ID="{E1398502-0EA4-4DFD-B914-DC545C36EDD6}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Close_Pause_Menu" ID="{A1E5CA4B-0C50-4E04-9F0F-303B1E3D4E11}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayMenu_Music" ID="{9B2B8CEA-EE51-4E17-A62C-CD9F9F384042}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Button_Hover" ID="{E586C2C6-186A-4EAF-AF4A-8B666024BFA0}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Level_End_Teleporter" ID="{009CACE3-E3C5-4F61-A267-CCE69C86CEA9}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pressure_Plate_Deactivated" ID="{ECC1479B-3A64-4F75-9B8A-D2F5D94F1505}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Connection_gets_disabled" ID="{FC2C50FE-6B2F-4FBF-ACF8-54F0181C06CA}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bow_grab" ID="{522986C1-9FD8-4FFB-8EC9-2C3ADA725107}" WorkUnitID="{53424694-0610-4C6C-B009-8EEF6C341756}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

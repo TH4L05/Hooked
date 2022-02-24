@@ -1,0 +1,117 @@
+Event	ID	Name			Wwise Object Path	Notes
+	79097248	Play_LogoMusic			\Default Work Unit\Play_LogoMusic	
+	97863885	Play_Connection_gets_interrupted			\Default Work Unit\Play_Connection_gets_interrupted	
+	98439365	Play_Player_Footsteps			\Default Work Unit\Play_Player_Footsteps	
+	200807042	Play_LogoMusicB			\Default Work Unit\Play_LogoMusicB	
+	244621545	Play_Door_Malfunction			\Default Work Unit\Play_Door_Malfunction	
+	310530060	Play_UI_Button_Hover			\Default Work Unit\Play_UI_Button_Hover	
+	363100938	Play_UI_Open_Pause_Menu			\Default Work Unit\Play_UI_Open_Pause_Menu	
+	381690321	Play_Level_End_Teleporter			\Default Work Unit\Play_Level_End_Teleporter	
+	439638181	Stop_Active_Connection			\Default Work Unit\Stop_Active_Connection	
+	444121689	Play_Connection_gets_disabled			\Default Work Unit\Play_Connection_gets_disabled	
+	485041492	Play_UI_Close_Pause_Menu			\Default Work Unit\Play_UI_Close_Pause_Menu	
+	562256996	Play_Player_Jump			\Default Work Unit\Play_Player_Jump	
+	705667684	Stop_Dissolve_Wall_Player_Wobble			\Default Work Unit\Stop_Dissolve_Wall_Player_Wobble	
+	962916179	Play_UI_Slider_Hover			\Default Work Unit\Play_UI_Slider_Hover	
+	1072073938	Play_Arrow_hits_hookable_object			\Default Work Unit\Play_Arrow_hits_hookable_object	
+	1104007447	Play_Arrow_gets_destroyed			\Default Work Unit\Play_Arrow_gets_destroyed	
+	1126814180	Play_Player_Move_Wind			\Default Work Unit\Play_Player_Move_Wind	
+	1400770022	Play_UI_Slider_slide			\Default Work Unit\Play_UI_Slider_slide	
+	1446717659	Play_Active_Connection			\Default Work Unit\Play_Active_Connection	
+	1492126678	Play_Dissolve_Wall_Player_Wobble			\Default Work Unit\Play_Dissolve_Wall_Player_Wobble	
+	1492645727	Play_Player_releases_bow			\Default Work Unit\Play_Player_releases_bow	
+	1494186105	Play_Pressure_Plate_Deactivated			\Default Work Unit\Play_Pressure_Plate_Deactivated	
+	1540742163	Play_Pot_Break			\Default Work Unit\Play_Pot_Break	
+	1643965814	Play_Dissolve_Wall_is_Active			\Default Work Unit\Play_Dissolve_Wall_is_Active	
+	1646319626	Play_Dissolve_Wall_Activated			\Default Work Unit\Play_Dissolve_Wall_Activated	
+	1660008929	Play_Door_Open			\Default Work Unit\Play_Door_Open	
+	1661558166	Play_UI_Button_Click			\Default Work Unit\Play_UI_Button_Click	
+	1908706837	Play_Player_holds_bow_charged_V2			\Default Work Unit\Play_Player_holds_bow_charged_V2	
+	1947583317	Play_Dissolve_Wall_Deactivated			\Default Work Unit\Play_Dissolve_Wall_Deactivated	
+	1958298137	Play_Cube_Spawn			\Default Work Unit\Play_Cube_Spawn	
+	1986507045	Play_Cube_Teleport			\Default Work Unit\Play_Cube_Teleport	
+	2015160956	Stop_Dissolve_Wall_is_Active			\Default Work Unit\Stop_Dissolve_Wall_is_Active	
+	2064360192	Play_Player_Draws_Bow			\Default Work Unit\Play_Player_Draws_Bow	
+	2292458263	Play_Door_Close			\Default Work Unit\Play_Door_Close	
+	2344072136	DampMusicStart			\Default Work Unit\DampMusicStart	
+	2425231895	Play_Player_Slide			\Default Work Unit\Play_Player_Slide	
+	2476148584	Play_Pull_error			\Default Work Unit\Play_Pull_error	
+	2588048338	Play_Cube_Impact			\Default Work Unit\Play_Cube_Impact	
+	2612038585	PlayIngameMovementMusic1			\Default Work Unit\PlayIngameMovementMusic1	
+	2612038586	PlayIngameMovementMusic2			\Default Work Unit\PlayIngameMovementMusic2	
+	2614012886	Play_Player_Lands			\Default Work Unit\Play_Player_Lands	
+	2644140661	Play_Dissolve_Wall_Arrow_Repell			\Default Work Unit\Play_Dissolve_Wall_Arrow_Repell	
+	3072274270	PlayMenu_Music			\Default Work Unit\PlayMenu_Music	
+	3130254894	Play_Pressure_Plate_Activated			\Default Work Unit\Play_Pressure_Plate_Activated	
+	3266664515	Stop_Player_holds_bow_charged_V2			\Default Work Unit\Stop_Player_holds_bow_charged_V2	
+	3298598723	Play_Connection_established_Arrow			\Default Work Unit\Play_Connection_established_Arrow	
+	3309779001	Stop_Player_Slide			\Default Work Unit\Stop_Player_Slide	
+	3475857513	Play_Player_Teleport			\Default Work Unit\Play_Player_Teleport	
+	3506905891	Play_Pull_is_active			\Default Work Unit\Play_Pull_is_active	
+	3538789407	Play_Bow_grab			\Default Work Unit\Play_Bow_grab	
+	3630559470	Stop_Player_Move_Wind			\Default Work Unit\Stop_Player_Move_Wind	
+	3682591869	Stop_Pull_is_active			\Default Work Unit\Stop_Pull_is_active	
+	3766342464	PlayIngame_Music			\Default Work Unit\PlayIngame_Music	
+	3766997524	DampMusicStop			\Default Work Unit\DampMusicStop	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	884858177	Pot_Scale			\Environment\Pot_Scale	
+	1352608351	General_Velocity			\Player\General_Velocity	
+	4044950198	Horizontal_Momentum			\Player\Horizontal_Momentum	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10995867	Player_Teleport	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Teleport		381824
+	31697240	Door_Close	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Door_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Door_Close		225220
+	35257640	Bow_grab	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Bow_grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Bow_grab		45044
+	35617206	Connection_established_Arrow	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Connection_established_Arrow_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Connection_established_Arrow		97052
+	48422451	Door_Open	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Door_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Door_Open		225220
+	53053961	Player_Foodsteps1	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_Foodsteps1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Player_Footsteps\Player_Foodsteps1		23272
+	58102564	Cube_Impact5	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Cube_Impact5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Cube_Impact\Cube_Impact5		77776
+	91915080	Pot_Break3	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Pot_Break3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Pot_Break\Pot_Break3		222740
+	129892952	Player_releases_bow	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_releases_bow_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Player_releases_bow		203260
+	139450655	ParkourLoop2	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Project Artemis - Parkour Loop 2 - Final_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\IngameMovement2\IngameMovement2\ParkourLoop2		15699664
+	141328502	Pull_error	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Pull_error_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Pull_error		52936
+	165150055	UI_Button_Click	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\UI_Button_Click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Button_Click		58276
+	178819508	Pressure_Plate_Deactivated	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Pressure_Plate_Deactivated_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Pressure_Plate_Deactivated		56772
+	198538129	Arrow_hits_hookable_object	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Arrow_hits_hookable_object_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Arrow_hits_hookable_object		49992
+	236561246	Dissolve_Wall_Activated	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Dissolve_Wall_Activated_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dissolve_Wall_Activated		246072
+	236962077	Player_Move_Wind	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_Move_Wind_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Player_Move_Wind		123138
+	262789259	Connection_gets_interrupted	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Connection_gets_interrupted_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Connection_gets_interrupted		64792
+	265952752	Player_holds_bow_charged_V2	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_holds_bow_charged_V2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Player_holds_bow_charged_V2		230460
+	272375812	UI_Button_Hover	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\UI_Button_Hover_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Button_Hover		117548
+	289315573	Cube_Spawn	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Cube_Spawn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Cube_Spawn		115646
+	312752676	Cube_Impact2	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Cube_Impact2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Cube_Impact\Cube_Impact2		77776
+	402088223	Cube_Impact1	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Cube_Impact1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Cube_Impact\Cube_Impact1		77776
+	437412683	Pot_Break2	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Pot_Break2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Pot_Break\Pot_Break2		185236
+	450139511	PuzzleLoop	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Project Artemis Puzzle loop 1 - Final_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\IngamePuzzle\IngamePuzzle\PuzzleLoop		17930604
+	481612852	Connection_gets_disabled	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Connection_gets_disabled_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Connection_gets_disabled		64792
+	487781566	UI_OPen_Pause_Menu	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\UI_OPen_Pause_Menu_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_OPen_Pause_Menu		144492
+	492309388	ParkourLoop1	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Project Artemis Parkour loop 1 - Final_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\IngameMovement1\IngameMovement1\ParkourLoop1		16001972
+	507058272	Dissolve_Wall_Player_Wobble	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Dissolve_Wall_Player_Wobble_FEF1CBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dissolve_Wall_Player_Wobble		352828
+	546264479	PuzzleLoop2	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Project Artemis Puzzle loop 2 - Final_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\Menu\PuzzleLoop2		20919028
+	567938802	Arrow_gets_destroyed	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Arrow_gets_destroyed_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Arrow_gets_destroyed		173800
+	584696934	Pressure_Plate_Activated	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Pressure_Plate_Activated_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Pressure_Plate_Activated		131524
+	617372915	Player_Jump	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_Jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Player_Jump		112928
+	657247310	Dissolve_Wall_is_Active	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Dissolve_Wall_is_Active_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dissolve_Wall_is_Active		161672
+	673221172	Player_Draws_Bow	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_Draws_Bow_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Player_Draws_Bow		94520
+	695084673	Dissolve_Wall_Arrow_Repell	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Dissolve_Wall_Arrow_Repell_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dissolve_Wall_Arrow_Repell		104840
+	711991657	Level_End_Teleporter	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Level_End_Teleporter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Level_End_Teleporter		338752
+	713416998	logo02	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\logo02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\logo02		1101116
+	738567855	Active_Connection	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Active_Connection_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Active_Connection		3028560
+	742354651	UI_Close_Pause_Menu	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\UI_Close_Pause_Menu_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Close_Pause_Menu		144492
+	807535652	Door_Malfunction	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Door_Malfunction_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Door_Malfunction		257316
+	823119677	Cube_Impact4	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Cube_Impact4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Cube_Impact\Cube_Impact4		77776
+	835032003	Player_Lands	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_Lands_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Player_Lands		139768
+	877377838	Pot_Break4	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Pot_Break4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Pot_Break\Pot_Break4		152420
+	911927517	Cube_Impact6	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Cube_Impact6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Cube_Impact\Cube_Impact6		77776
+	938002078	Pot_Break1	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Pot_Break1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Pot_Break\Pot_Break1		157108
+	950041293	Player_Slide	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_Slide_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Player_Slide		164412
+	964484414	Pull_is_active	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Pull_is_active_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Weapon\Pull_is_active		2309600
+	970349033	Dissolve_Wall_Deactivated	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Dissolve_Wall_Deactivated_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dissolve_Wall_Deactivated		136152
+	986888366	UI_Slider_slide	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\UI_Slider_slide_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Slider_slide		37544
+	1010129507	Player_Foodsteps3	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_Foodsteps3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Player_Footsteps\Player_Foodsteps3		25848
+	1010695871	Player_Foodsteps4	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_Foodsteps4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Player_Footsteps\Player_Foodsteps4		21268
+	1011116811	Player_Foodsteps2	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Player_Foodsteps2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Player_Footsteps\Player_Foodsteps2		24132
+	1012353899	Cube_Impact3	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\Cube_Impact3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Cube_Impact\Cube_Impact3		77776
+	1054727818	Logo	E:\Repositories\ProjectArtemis\ProjectArtemis\ProjectArtemis_WwiseProject\.cache\Windows\SFX\logo01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Logo		1059152
+
