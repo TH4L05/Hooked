@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fbae1d5ab600b46b6bc1e1869d46f5, type: 3}
+  m_Name: Borders
+  m_EditorClassIdentifier: 
+  Parts:
+  - partName: A floor
+    Template: {fileID: 4469980031771333567, guid: c11b3d102658e93468755633e5ae9f57, type: 3}
+  - partName: A roof
+    Template: {fileID: 3823487206848661859, guid: f3f2b9b290946134084c6d3da33d2774, type: 3}
+  - partName: B floor
+    Template: {fileID: 602512770623042857, guid: b21dcd29f8c3a7e47ad3a73e201b3d70, type: 3}
+  - partName: B roof
+    Template: {fileID: 8432897499899916851, guid: 007d2d89e9cef90438d81384d1de9985, type: 3}

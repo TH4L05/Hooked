@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fbae1d5ab600b46b6bc1e1869d46f5, type: 3}
+  m_Name: Floors
+  m_EditorClassIdentifier: 
+  Parts:
+  - partName: 1x1
+    Template: {fileID: 1062214855655617014, guid: f51c1e17326935a4b958d0374f36a8b9, type: 3}
+  - partName: 2x2
+    Template: {fileID: 1488819473849080202, guid: d684143a7ccb1a545bf43863b6e6c70c, type: 3}
+  - partName: 4x4
+    Template: {fileID: 1730668556059770274, guid: c1290f3ce38d3de46866192a0f97cfa4, type: 3}

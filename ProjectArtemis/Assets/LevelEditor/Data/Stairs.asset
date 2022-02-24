@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fbae1d5ab600b46b6bc1e1869d46f5, type: 3}
+  m_Name: Stairs
+  m_EditorClassIdentifier: 
+  Parts:
+  - partName: 1x1 large
+    Template: {fileID: 3479600473156235401, guid: e6fd0c677c6aa9a438502080bdabddb0, type: 3}
+  - partName: 1x1 small
+    Template: {fileID: 2894373369633842294, guid: 13a2fa088ec379d44b44a7bc2fc5dd1f, type: 3}
+  - partName: 1x2 large
+    Template: {fileID: 5904589203216337958, guid: 86083f04952d66b4eac425c65b4b80c3, type: 3}
+  - partName: 1x2 small
+    Template: {fileID: 1236135385159145642, guid: 312793eca290adc458309be5dafa3bd9, type: 3}
+  - partName: 1x3 large
+    Template: {fileID: 5984682359569890941, guid: a4a67d5ba4a553b45a0c0f9ad5d8bd0c, type: 3}
+  - partName: 1x3 small
+    Template: {fileID: 9148296909030156101, guid: cc8159fa07605e142bd211b043f0888a, type: 3}
+  - partName: 1x4 large
+    Template: {fileID: 4820936810637753761, guid: 640cbb58e9f30a749918d62a6345d150, type: 3}
+  - partName: 1x4 small
+    Template: {fileID: 6376872912911576695, guid: 9451ade123c45be43ad5096dc17a1866, type: 3}
+  - partName: InnerCorner 1.5x1.5 large
+    Template: {fileID: 953297439382630493, guid: fca772106a2d834458c5c5d6a8d50fff, type: 3}
+  - partName: InnerCorner 1.5x1.5 small
+    Template: {fileID: 2453593624299724677, guid: c63c584297ccbff418cc941f88afe9b6, type: 3}
+  - partName: InnerCorner 1x1 large
+    Template: {fileID: 3922541457349116128, guid: 22a827df509cfcf468eb8e41b09e087b, type: 3}
+  - partName: InnerCorner 1x1 small
+    Template: {fileID: 5744770433598629223, guid: 5cf94036aa616d04b84c6743bc776814, type: 3}
+  - partName: InnerCorner 2x2 large
+    Template: {fileID: 2309088551435224563, guid: 8a667b13cd23c6e4095718eb96a97c21, type: 3}
+  - partName: InnerCorner 2x2 small
+    Template: {fileID: 1920033155106278626, guid: c580db48fc02b2d42a45e065f65526ec, type: 3}
+  - partName: OuterCorner 1.5x1.5 large
+    Template: {fileID: 6752266681185477895, guid: 808554800c8141a4690778356ee19dbe, type: 3}
+  - partName: OuterCorner 1.5x1.5 small
+    Template: {fileID: 8381698218280671576, guid: b91d20477d1437a44b47ddee601f567a, type: 3}
+  - partName: QouterCorner 1x1 large
+    Template: {fileID: 7233502191832931503, guid: 3bbcec703ad05254e8462e0142b057bc, type: 3}
+  - partName: QouterCorner 1x1 small
+    Template: {fileID: 2412149777336394544, guid: 8fa27b8b50b39ab44ac1b149d4d87309, type: 3}
+  - partName: QouterCorner 2x2 large
+    Template: {fileID: 2493561116881051599, guid: 2870be0c5583d944084cd44e9575c7f9, type: 3}
+  - partName: QouterCorner 2x2 mall
+    Template: {fileID: 1504920216288262604, guid: 01370dad851c2034aaec4dc3a83a9078, type: 3}

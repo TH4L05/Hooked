@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fbae1d5ab600b46b6bc1e1869d46f5, type: 3}
+  m_Name: Roof
+  m_EditorClassIdentifier: 
+  Parts:
+  - partName: 1x1
+    Template: {fileID: 397577929427718327, guid: a94a43084160a6c4389b07317a91d891, type: 3}
+  - partName: 2x2 small
+    Template: {fileID: 3677149683683319103, guid: 49b36ece70c2ff2449c49cac99572fc1, type: 3}
+  - partName: 2x2 mid
+    Template: {fileID: 3933387953097197658, guid: 4dc52be062680934f972e53ae0303706, type: 3}
+  - partName: 4x4
+    Template: {fileID: 4835213395013403159, guid: 5b501679870da714799583b068c62acb, type: 3}
