@@ -1,0 +1,353 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6158114682385665657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6158114682385665663}
+  - component: {fileID: 1692662617}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6158114682385665663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6158114682385665657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6158114683690723893}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1692662617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6158114682385665657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddec6876bbb1ea846823cf0daf4a08db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioEvents:
+  - EventName: PlayerJump
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: e8029059f2366f045bf79d477fd2e7d5, type: 2}
+  - EventName: PlayerLand
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: d2550618fa5bbe94487bea097cf5da42, type: 2}
+  - EventName: PlayerSlide
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 417c6fc882dd30f418cd69d7af5305c3, type: 2}
+  - EventName: PlayerSlideStop
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 95faae0f9a106ee40893c3070e0c70c3, type: 2}
+  - EventName: PlayerDrawsBow
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 5c4e06dd2d3f2ee489fe85edf1b264bb, type: 2}
+  - EventName: PlayerHoldsBowCharged
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 5cf8dcf989d6d054fad3a06d881b7e49, type: 2}
+  - EventName: PlayerHoldsBowChargedStop
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: f1e2b6ed671796343b961751fe61ad1f, type: 2}
+  - EventName: PlayerShoot
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: d1c7644d6228aff4297ad4fb4ef515d6, type: 2}
+  - EventName: PlayerGrabsBow
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 79c7a90c47c617b418eb00cbcebe5f12, type: 2}
+  - EventName: PlayerPullActive
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 928d5d2598746ff4abd7cb07db8ca928, type: 2}
+  - EventName: PlayerPullStop
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 3e8cf3638a320204fa65c504507001bb, type: 2}
+  - EventName: PlayerFootStep
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: f462cce5aefe0f545ac7c251addae1cd, type: 2}
+  - EventName: PlayerMoveWind
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: fb71f4c3332e3284aabbae11e2aa9884, type: 2}
+  - EventName: PlayerMoveWindStop
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 0c346b7aaaf5e55479986d46f523f764, type: 2}
+  - EventName: ActiveConnection
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 96877d274531c8543b5ed007ccd231d6, type: 2}
+  - EventName: ConnectionGetsInterrupted
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 78b5298882de9bb4c9ff248b5701b655, type: 2}
+  - EventName: ConnectionGetsDisabled
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: f84b9c74cb57ecb4ba2cfac1e2ec159d, type: 2}
+  - EventName: HookConnectionGetEstablished
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 1d97b5da9d197254b97a5bd440bddda6, type: 2}
+  - EventName: StopConnection
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: ad210d570804e92418d63f772772e44b, type: 2}
+  - EventName: ArrowHitsHookable
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 40a8a6ff04898a84fae6477e0654fa5e, type: 2}
+  - EventName: ArrowGetDestroyed
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: aeb7f6e331340c64cb367b43f4b9f38a, type: 2}
+  - EventName: PotBreak
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 278bd3a69a158584bbed3fa5b79bcd3c, type: 2}
+  - EventName: ButtonClick
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: e5f01b03e6fbbd848943dfeddd0f583e, type: 2}
+  - EventName: ButtonHover
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 927b4191aadf5164f94c2b7d0c298624, type: 2}
+  - EventName: SliderHover
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 7a52fd909fc706742b66fd189087c581, type: 2}
+  - EventName: OpenPauseMenu
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 797504b241ebdee46ae51c53ef4c80bd, type: 2}
+  - EventName: ClosePauseMenu
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: f81ed23539cdbbd4b86a1ced1484b700, type: 2}
+  - EventName: DampMusicStart
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 5cad98716cb896c49967124136196399, type: 2}
+  - EventName: DampMusicStop
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: aacff1aac7ef7c04488c58b4be4e19b2, type: 2}
+  - EventName: DoorOpen
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: a4360230e29ab1344aacb1ff5d6ddb43, type: 2}
+  - EventName: DoorClose
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: d17ecf83ddad48c4cb3611f423769535, type: 2}
+  - EventName: DoorMalfunction
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 7e04627bd1f2bda4db5f72a607347658, type: 2}
+  - EventName: PressurePlateActivated
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 0b6e30e396356514f9f298396b15b516, type: 2}
+  - EventName: PressurePlateDeactivated
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: ba0281355262d5d4abbfecd7c90294c3, type: 2}
+  - EventName: DissolveWallActivated
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 08164034efeec6f43a5653438f0d4b5f, type: 2}
+  - EventName: DissolveWallDeactivated
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 2221d80a2e336c34d8031a4aab4d1c54, type: 2}
+  - EventName: DissolveWallIsActiveStart
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 1680ed2cc806411468b102eea95edf21, type: 2}
+  - EventName: DissolveWallIsActiveStop
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: fcc624d453eefda4f815c942ed09e487, type: 2}
+  - EventName: DissolveWallArrowRepell
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 501ea41b85276d6478296fb3e6438878, type: 2}
+  - EventName: DissolveWallPlayerWobbleStart
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 6526abae0b4d2394ba6c43dd19f63d00, type: 2}
+  - EventName: DissolveWallPlayerWobbleStop
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 80404e42278170c4c90ea3c5a4a01593, type: 2}
+  - EventName: CubeImpact
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: be9b418e862ebbb47866f7dc8a55de38, type: 2}
+  - EventName: CubeTeleport
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 65026f23b6ace864e9af368289440cac, type: 2}
+  - EventName: CubeSpawn
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: c3fabf55b6742f54ca688851705b0a99, type: 2}
+  - EventName: PlayerTeleport
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: efb5743e6784bd0498419981ab67c960, type: 2}
+  - EventName: TeleporterActive
+    wwiseEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: b25fa087d3cef544c8847428695796e2, type: 2}
+  audioParameters:
+  - ParameterName: GeneralVelocity
+    rtpc:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 380e602cf50e8e74fbefa640cf96d0de, type: 2}
+  - ParameterName: HorizontalMomentum
+    rtpc:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 3f9329362ab7bd04984861f79a2e9c5c, type: 2}
+  - ParameterName: VerticalVelocity
+    rtpc:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 7b44d82a355e1c44a949a24971057536, type: 2}
+  - ParameterName: PotScale
+    rtpc:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: d070e04163d8efb4db0787239e84222c, type: 2}
+--- !u!1 &6158114683690723892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6158114683690723893}
+  - component: {fileID: 6158114683690723882}
+  m_Layer: 0
+  m_Name: SoundBank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6158114683690723893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6158114683690723892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6158114682385665663}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6158114683690723882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6158114683690723892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c3bfac0a0804a4d8f26b8f79e33437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fa3b7796560f3494c9e460e33161b7c0, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
