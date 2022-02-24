@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1444e85c57e0b7340af32a7db83b11e5, type: 3}
+  m_Name: 40C37C2C-5A54-497B-931B-889B8A07DFF5
+  m_EditorClassIdentifier: 
+  objectName: General_Velocity
+  id: 1352608351
+  guid: 40C37C2C-5A54-497B-931B-889B8A07DFF5

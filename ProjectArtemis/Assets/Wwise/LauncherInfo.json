@@ -1,0 +1,28 @@
+{
+    "originalSdkFolder": "D:\\WWise\\Wwise 2021.1.5.7749\\SDK",
+    "currentVersion": {
+        "build": 2277,
+        "major": 1,
+        "minor": 5,
+        "nickname": "",
+        "year": 2021
+    },
+    "installedBundleGroups": [
+        {
+            "id": "Packages",
+            "valueId": "Unity"
+        },
+        {
+            "id": "Packages",
+            "valueId": "Extensions"
+        },
+        {
+            "id": "DeploymentPlatforms",
+            "valueId": "Mac"
+        },
+        {
+            "id": "DeploymentPlatforms",
+            "valueId": "Windows"
+        }
+    ]
+}

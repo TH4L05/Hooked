@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12b706b6f40ff2a44b95e59ee9d01de2, type: 3}
+  m_Name: 4F4D71BC-F665-4A10-A42F-34D1BB713803
+  m_EditorClassIdentifier: 
+  objectName: Stop_Player_holds_bow_charged_V2
+  id: 3266664515
+  guid: 4F4D71BC-F665-4A10-A42F-34D1BB713803
