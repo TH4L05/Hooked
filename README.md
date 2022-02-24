@@ -1,4 +1,5 @@
-<img src="https://user-images.githubusercontent.com/100194436/155525162-3db59b69-ba9e-420c-ae48-e65264cc9b80.png">
+<img src="https://user-images.githubusercontent.com/100194436/155534463-08249468-c40b-4035-9daf-4a9751b7b5a0.png">
+<!--<img src="https://user-images.githubusercontent.com/100194436/155525162-3db59b69-ba9e-420c-ae48-e65264cc9b80.png"> -->
 
 <!-- <h1>Hooked</h1>  -->
 <h2 align="center">First Person Shooter with Hook Mechanic</h2>
@@ -15,7 +16,7 @@
 <h2 align="center">About:</h2>
 <p align="center">Hooked is an FPS in which you explore an alien temple and find an ancient artifact.</p>
 <p align="center">A bow that shoots two arrows that can pull anything they are attached to together.</p>
-<p align="center">You cna zse it to solve puzzles.</p>
+<p align="center">You can use it to solve puzzles.</p>
 
 Responsiblities
 
