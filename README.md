@@ -1,11 +1,14 @@
 <img src="https://user-images.githubusercontent.com/100194436/155534463-08249468-c40b-4035-9daf-4a9751b7b5a0.png">
+
+<p align="center" ><img src="https://user-images.githubusercontent.com/100194436/167258307-e33937db-77f0-44ab-9049-add9f6313e55.png" width="405" height="265" ></p>
+
 <!--<img src="https://user-images.githubusercontent.com/100194436/155525162-3db59b69-ba9e-420c-ae48-e65264cc9b80.png"> -->
 
 <!-- <h1>Hooked</h1>  -->
 <p align="center" ><img src="ProjectArtemis/Assets/Art/Textures/UI/Deco Elements/deco_level select_b_blue.png" height="18" width="999"></p>
 
 <h1 align="center">First Person Puzzle Game with Hook Mechanic</h1>
-<h3 align="center">(S4G - Project)</h3>
+<h3 align="center">(S4G - Project - 3)</h3>
 <p align="center"><i>https://s4g.itch.io/hooked</i></p>
 
 
